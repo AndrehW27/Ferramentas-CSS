@@ -1,7 +1,8 @@
 const checkbox = document.getElementById('checkbox');
+const gt1 = document.getElementById('gt1');
 const theme = document.getElementById('theme');
 
 checkbox.addEventListener('change', () => {
-    document.body.classList.toggle('dark')
-    theme.classList.toggle('white')
+    gt1.classList.toggle('light')
+    theme.classList.toggle('dark')
 })
